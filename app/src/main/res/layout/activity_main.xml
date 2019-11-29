@@ -7,18 +7,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/static_fragment1"
-        android:name="com.sem.staticfragment.Staticfragment"
+    <FrameLayout
+        android:id="@+id/buttonframe"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
+
         />
-    <fragment
-        android:id="@+id/static_fragment2"
-        android:name="com.sem.staticfragment.Staticfragment"
+
+    <FrameLayout
+        android:background="@drawable/background"
+        android:id="@+id/messageframe"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"/>
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+      />
+
+
 
 </LinearLayout>

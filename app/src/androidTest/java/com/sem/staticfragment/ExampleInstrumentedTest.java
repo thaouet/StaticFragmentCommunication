@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.sem.staticfragment", appContext.getPackageName());
+        assertEquals("com.sem.button_fragment", appContext.getPackageName());
     }
 }
